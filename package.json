@@ -4,7 +4,7 @@
     "version": "4.2.2",
     "scripts": {
         "start": "node_modules/.bin/gulp watch",
-        "build":"npx @11ty/eleventy --save-optional"
+        "build":"npx @11ty/eleventy"
     },
     "description": "A shop homepage HTML template built with Bootstrap",
     "keywords": [
@@ -39,5 +39,8 @@
         "del": "5.1.0",
         "gulp": "4.0.2",
         "merge-stream": "2.0.0"
+    },
+    "optionalDependencies": {
+        "fsevents": "2.1.3"
     }
 }
